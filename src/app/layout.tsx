@@ -1,4 +1,5 @@
 import NavBar from "../../components/navbar/NavBar";
+import Footer from "../../components/footer/Footer";
 
 export const metadata = {
   title: "David Perez Tiburcio",
@@ -15,6 +16,7 @@ export default function RootLayout({
       <body>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
