@@ -1,5 +1,8 @@
-import NavBar from "../../components/navbar/NavBar";
-import Footer from "../../components/footer/Footer";
+import "./globals.css";
+import Providers from "./providers";
+import NavBar from "@/components/navbar/NavBar";
+import Footer from "@/components/footer/Footer";
+import ThemeSwitcher from "@/components/themeSwitcher/themeSwitcher";
 
 export const metadata = {
   title: "David Perez Tiburcio",
@@ -15,7 +18,10 @@ export default function RootLayout({
     <html>
       <body>
         <NavBar />
-        {children}
+        <Providers>
+          <ThemeSwitcher />
+          {children}
+        </Providers>
         <Footer />
       </body>
     </html>
