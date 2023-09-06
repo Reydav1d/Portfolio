@@ -2,7 +2,7 @@ import "./globals.css";
 import Providers from "./providers";
 import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
-// import ThemeSwitcher from "@/components/themeSwitcher/themeSwitcher";
+import ThemeSwitcher from "@/components/themeSwitcher/themeSwitcher";
 
 export const metadata = {
   title: "David Perez Tiburcio",
@@ -19,7 +19,7 @@ export default function RootLayout({
       <body>
         <NavBar />
         <Providers>
-          {/* <ThemeSwitcher /> */}
+          <ThemeSwitcher />
           {children}
         </Providers>
         <Footer />
