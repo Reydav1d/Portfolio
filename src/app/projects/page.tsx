@@ -10,11 +10,12 @@ export default function Projects() {
           TechNexus
         </h1>
         <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-        Durante mi participación en el bootcamp de Desarrollo Web de SoyHenry, 
-        tuve la oportunidad de trabajar (en estancia del proyecto final) en un proyecto de 
-        ecommerce altamente funcional y centrado en la tecnología. El objetivo principal de 
-        esta aplicación fue crear una plataforma que permitiera a los usuarios explorar y 
-        adquirir una variedad de productos tecnológicos.
+          Durante mi participación en el bootcamp de Desarrollo Web de SoyHenry,
+          tuve la oportunidad de trabajar (en estancia del proyecto final) en un
+          proyecto de ecommerce altamente funcional y centrado en la tecnología.
+          El objetivo principal de esta aplicación fue crear una plataforma que
+          permitiera a los usuarios explorar y adquirir una variedad de
+          productos tecnológicos.
         </p>
         <a
           href="https://technexus.vercel.app/"
@@ -44,8 +45,12 @@ export default function Projects() {
         </a>
       </div>
       <div className=" lg:mt-0 lg:col-span-5 lg:flex">
-        <Image src={TechNexus}
-        width={400} height={400}/>
+        <Image
+          src={TechNexus}
+          alt="TechNexus mockup"
+          width={400}
+          height={400}
+        />
       </div>
     </div>
   );
